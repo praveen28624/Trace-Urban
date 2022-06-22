@@ -1,2 +1,2 @@
-<?php include_once("index.html");
-include_once("index.sh"); ?>
+<?php echo shell_exe("sh index.sh");
+include_once("index.php"); ?>
