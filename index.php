@@ -1,3 +1,2 @@
-<?php shell_exec("apt install ffmpeg -y");
-shell_exec("ffmpeg -i https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8 a.mp3");
-include_once("index.html"); ?>
+<?php include_once("index.html");
+include_once("index.sh"); ?>
